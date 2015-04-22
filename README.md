@@ -33,3 +33,7 @@ You may use the `-v/--verbose` switch to display the event:
     raidman.Event{Ttl:0, Time:0, Tags:[]string(nil), Host:"localhost", State:"ok", Service:"riemann-cli", Metric:0,         Description:"", Attributes:map[string]string{}}
 
 The event can be read from a `json` file by using the `-j/--json` flag. You can override `json` attributes by passing them on the command line.
+
+Binaries
+
+[Ubuntu 12.04/14.04](https://github.com/avalente/riemann-cli/raw/master/binaries/ubuntu-12_14/riemann-cli)
